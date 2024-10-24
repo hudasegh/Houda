@@ -25,7 +25,6 @@ public class Departement {
         }
         return sb.toString();
     }
-
     // Ajouter un étudiant
     public void inscrire(Etudiant etudiant) {
         etudiantsInscrits.add(etudiant);
