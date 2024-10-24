@@ -16,14 +16,6 @@ public class Etudiant {
     private  double totaleCoefetion;
     private  double doubleTotale;
     private double totale;
- /*   public Etudiant(String nom) {
-        this.nom = nom;
-        this.prenom = prenom;
-        this.dateNaissance = dateNaissance;
-        this.adresseMail = adresseMail;
-        this.adressePostale = adressePostale;
-    }
-*/
     public Etudiant(String nom, String prenom, LocalDate dateNaissance, String adresseMail, String adressePostale) {
 		super();
 		this.nom = nom;
